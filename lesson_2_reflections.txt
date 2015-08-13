@@ -16,3 +16,10 @@ By running git diff on its own, you can check what changes have been made on the
 in comparison to the last commit. Also before finally committing you can make sure one last time 
 that you are committing the right changes.
 
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+Sometimes you want to try something out, perhaps a design choice, and would like to keep that 
+seperate from your main project. Another case is if you are making two versions. By using branches 
+you can be continue working on concurrent versions without having to worry about affecting each other.
+
