@@ -4,3 +4,15 @@ We initialize a git repository when we want to start tracking changes using Git.
 start making commits. We need to do it in order to create the '.git' directory, enabling us to 
 start committing.
 
+How is the staging area different from the working directory and the repository? What value do you 
+think it offers?
+
+The staging area is just a temporary thing. It is useful because it allows us to review what 
+exactly will be committed, before we actually commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By running git diff on its own, you can check what changes have been made on the working directory 
+in comparison to the last commit. Also before finally committing you can make sure one last time 
+that you are committing the right changes.
+
