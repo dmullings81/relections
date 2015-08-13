@@ -23,3 +23,8 @@ Sometimes you want to try something out, perhaps a design choice, and would like
 seperate from your main project. Another case is if you are making two versions. By using branches 
 you can be continue working on concurrent versions without having to worry about affecting each other.
 
+How do the diagrams help you visualize the branch structure?
+
+It may be that for a given project there can be several branches being used, which can be confusing to 
+visualise in one's head. By drawing the diagrams we can easily trace back commits through their 
+respective parents.
