@@ -1,0 +1,43 @@
+How did reviewing a diff between two versions of a file help you see the bug that was introduced?
+
+It helped because it cut out all the unneccesary information.
+It would have taken a considerably long time to work through 1000s of lines of code.
+Using this method I was able to isolate differences and use my mind to find the problem in a more 
+efficient way.
+
+How could having easy access to the entire history of a file make you a more efficient programmer?
+
+I imagine it would save you a lot of time in singling out errors. It could also be useful when you
+remove a certain section of code, and later decide that you'd like to use it again.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in 
+Git, vs having versions automatically saved, like Google Docs does?
+
+The first pro is that you don't get left with commits at inappropriate junctures. By committing manually 
+we can ensure each commit is at a logical and useful point. By doing it manually we can also define the 
+changes made in the commit. 
+The negative point is that it depends on the coder to remember to do this at regular intervals. If we get 
+in a flow or get distracted by other tasks it may happen that we forget to commit for a lengthy amount of
+time.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while 
+others, like Google Docs, treat each file seperately?
+
+I think its because of the nature of the work. Git is (perhaps) designed for coders who often work across 
+multiple files that effect each other. However, Google Docs users are more likely to be working on files 
+that have no dependant relationship to one another. In this case it would be wasteful and probably 
+overly complex to save whole repositories of files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The command git log gives you an overview of all the commits, useful for finding commit IDs. The command 
+git diff is used to compare two commits and identify exactly what changes were made.
+
+How might using version control make you more confident to make changes that could break something?
+
+It gives you a sense of freedom with the peace of mind that a working version is only a few clicks away.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'd like to start using it with a project I'm working on. At the moment I have no version control, so I'm 
+eager to get it set up with Git.
