@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+We initialize a git repository when we want to start tracking changes using Git. From then on we 
+start making commits. We need to do it in order to create the '.git' directory, enabling us to 
+start committing.
+
