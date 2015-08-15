@@ -9,3 +9,11 @@ with your remote repository?
 Particularly when collaborating with others, you might be working on a section that another has modified.
 In this case it'd be troublesome to have to deal with conflicts each time another user pushes to GitHub.
 Better to work on your own task first, then push/pull when ready.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are copies of repositories held on the GitHub servers. Clones are copies of repositories created 
+locally. Branches are series of commits contained in a single repository. We use forks to make our own 
+copy of repository in a case where we are not directly collaborating. Clones are used to make an exact 
+copy for offline, local use. Branches are used in collabration or experimentation with the idea to 
+merge work at some point in the future.
