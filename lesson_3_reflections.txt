@@ -2,3 +2,10 @@ When would you want to use a remote repository rather than keeping all your work
 
 When working from multiple devices or when collaborating. Storing files remotely means that everyone 
 has access to the entire repository and commit history at all times.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date 
+with your remote repository?
+
+Particularly when collaborating with others, you might be working on a section that another has modified.
+In this case it'd be troublesome to have to deal with conflicts each time another user pushes to GitHub.
+Better to work on your own task first, then push/pull when ready.
