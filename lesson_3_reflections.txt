@@ -23,3 +23,12 @@ What is the benefit of having a copy of the last known state of the remote store
 It lets you know how far ahead of the remote you are, and allows you to see what changes have been made 
 on the remote since you last pulled. Any potential conflicts can be anticipated in this way. This can 
 be useful if you have been working offline for a while.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without GitHub I'd probably have to email the files over or drop the file into a Dropbox each time, 
+perhaps having to rename the file each time. It would be slightly easier in that I wouldn't have 
+to record changes and go through as many steps each time I wanted to hand over. Many things would be 
+more difficult. It would be impossible to track what changes were made and when. There'd be a real danger 
+overwriting each others work or missing changes. You'd also lose the layer of quality control associated 
+with pull requests.
