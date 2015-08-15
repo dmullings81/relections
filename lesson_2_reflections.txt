@@ -32,7 +32,13 @@ respective parents.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we 
 do?
 
-Any lines that have been added or changed in either branch since the branches were created gets added to the 
+Any lines that have been added in either branch since the branches were created gets added to the 
 merged file(s). Any lines that were removed in either of the branches will no be included in the 
 merged commit. We represent it in the digram as having parents from each branch, and indicated which branch 
 has been merged into.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging obviously saves time. In these cases its logically obvious which changes need to be 
+retained or removed. Manually merging gives you that extra degree of control that is particularly 
+useful in conflicts, which require a human eye.
