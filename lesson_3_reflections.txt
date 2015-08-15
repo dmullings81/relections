@@ -17,3 +17,9 @@ locally. Branches are series of commits contained in a single repository. We use
 copy of repository in a case where we are not directly collaborating. Clones are used to make an exact 
 copy for offline, local use. Branches are used in collabration or experimentation with the idea to 
 merge work at some point in the future.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It lets you know how far ahead of the remote you are, and allows you to see what changes have been made 
+on the remote since you last pulled. Any potential conflicts can be anticipated in this way. This can 
+be useful if you have been working offline for a while.
