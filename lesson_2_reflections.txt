@@ -28,3 +28,11 @@ How do the diagrams help you visualize the branch structure?
 It may be that for a given project there can be several branches being used, which can be confusing to 
 visualise in one's head. By drawing the diagrams we can easily trace back commits through their 
 respective parents.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we 
+do?
+
+Any lines that have been added or changed in either branch since the branches were created gets added to the 
+merged file(s). Any lines that were removed in either of the branches will no be included in the 
+merged commit. We represent it in the digram as having parents from each branch, and indicated which branch 
+has been merged into.
