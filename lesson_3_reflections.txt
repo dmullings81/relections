@@ -32,3 +32,13 @@ to record changes and go through as many steps each time I wanted to hand over. 
 more difficult. It would be impossible to track what changes were made and when. There'd be a real danger 
 overwriting each others work or missing changes. You'd also lose the layer of quality control associated 
 with pull requests.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits 
+does each approach have?
+
+By making changes in a seperate branch, when we push to a remote it creates a pull request which allows 
+collaborators to check over the changes made before merging it into the master branch. Therefore when 
+working on a new feature that isn't ready yet or hasn't been approve yet this is particularly useful.
+It's easier to work in the master branch but working in a seperate branch gives that extra degree of 
+control and allows flexibilty when it comes to conflicts. When collaborating with big teams this would 
+be particularly useful as conflicts are more likely.
